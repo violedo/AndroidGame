@@ -11,7 +11,7 @@ public class Key implements Comparable<Key>{
     private int position;
     private Bitmap bitmap;
     final static public int level=1;
-    final static public int lastTime=400;
+     static public int lastTime=400;
 
     public Key(int starttime, int position,  Bitmap bitmap) {
         this.starttime = starttime;
